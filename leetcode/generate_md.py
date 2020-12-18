@@ -60,4 +60,4 @@ def main(source, destination):
 
 
 if __name__ == '__main__':
-    main(r"C:\au\python_au\leetcode\source_leetcode_data.txt", r"C:\au\python_au\leetcode\math.md")
+    main (r'C:\au\pythontxt\stringmd\valid.txt', r'C:\au\pythonmd\linked-list.md')
