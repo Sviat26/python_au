@@ -21,5 +21,6 @@ class TestTask(unittest.TestCase):
         expect = ('+ [Merge Intervals](#merge-intervals)', '## Merge Intervals\n\nhttps://leetcode.com/problems/merge-intervals/\n\n``` python\n\n```')
         result = example.get_md_task_content()
         self.assertEqual(expect, result)
+
 if __name__ == '__main__':
     unittest.main()
