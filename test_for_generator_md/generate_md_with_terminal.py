@@ -18,7 +18,7 @@ def merge_solution(old_md_links, old_solution, new_md_link, new_solution):
     return "{}\n{}{}{}\n{}".format(old_md_links,new_md_link,LINK_SOLUTION_SEPARATE,old_solution,new_solution)
 def str(self):
     return '{}\n{}\n{}'.format(self.title,self.link,self.sourse_code)
-class Task:
+class Connect:
     def __init__(self, title, link, sourse_code):
         self.title = title.split('. ')[-1].strip('\n')
         self.link = link.strip('\n')
