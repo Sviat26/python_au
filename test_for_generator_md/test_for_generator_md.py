@@ -1,5 +1,5 @@
 import unittest
-from Generator_md_with_terminal import Task
+from generate_md_with_terminal import Task
 class TestTask(unittest.TestCase):
     def test_get_md_link(self):
         example = Task('Merge Intervals', 'https://leetcode.com/problems/merge-intervals/', '    print(a)')
